@@ -1,0 +1,11 @@
+#search {
+    position: relative;
+    
+}
+@media (max-width: 768px) {
+    #search,
+    #search input {
+        width: 100%;
+    }
+}
+

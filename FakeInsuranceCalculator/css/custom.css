@@ -1,0 +1,83 @@
+body {
+    background: #ffd89b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right,  #ffd89b , #19547b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd89b , #19547b); 
+}
+.btn.btn-raised.btn-primary {
+    background-color: #19547b!important;
+    font-size: 16px;
+    width: 100%;
+    padding: 15px;
+    color: #ffd89b;
+}
+.jumbotron {
+    background-color:#ffd89b;
+    padding: 30px;
+    text-transform: uppercase;
+    color: #19547b;
+}
+
+.jumbotron h1 {
+    font-size: 40px;
+    margin:0;
+    font-weight: bold;
+}
+.jumbotron p {
+    font-size: 12px;
+    margin:0;
+} 
+.error {
+    background-color: #F31431;
+    border: 1px solid #F31431;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.correct {
+    background-color: #19547a;
+    border: 1px solid ffd89b;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffd89b
+}
+.error p {
+    margin:0;
+}
+#content {
+    margin-top: 60px;
+    background-color: white;
+    -webkit-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+    box-shadow: 0px 21px 46px -15px rgba(0,0,0,1);
+}
+.form-content {
+    margin-top: 30px;
+}
+#loading {
+    text-align: center;
+}
+#loading img {
+    display: none;
+    margin: 0 auto;
+}
+#result  {
+    margin-bottom: 40px;
+}
+#result div {
+    border: 1px solid #19547b;
+    text-align: center;
+    padding: 0  0 20px 0;
+}
+#result div p {
+    margin-bottom: 0;
+}
+#result div p.header {
+    background-color: #19547b;
+    margin-bottom: 10px;
+    color:#ffd89b;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
