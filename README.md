@@ -1,2 +1,4 @@
 # ProjectsJs
-Some JS projects 
+- Some JS projects 
+- Based on Udemy course
+- Learning purposes
